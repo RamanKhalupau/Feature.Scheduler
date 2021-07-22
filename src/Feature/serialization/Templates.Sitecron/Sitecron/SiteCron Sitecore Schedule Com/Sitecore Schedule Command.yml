@@ -1,0 +1,19 @@
+﻿---
+ID: "c2c2b000-3679-49ac-9cd2-2ba05622e61c"
+Parent: "b9b437b2-789c-48f6-aae2-b49c4aa2a4bb"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/Sitecron/SiteCron Sitecore Schedule Command Job/Sitecore Schedule Command
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180406T182349Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180406T182349Z

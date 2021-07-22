@@ -1,0 +1,45 @@
+﻿---
+ID: "dec250eb-ab39-4305-809c-8b8e95037fd1"
+Parent: "3ba89ab1-60ec-43f2-8e44-110bde71db4c"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Sitecron/Cleanup/Delete SiteCron Execution Reports Older than x Days
+DB: master
+SharedFields:
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    $noOfDays = -200
+    $dateOlder = (Get-date).AddDays($noOfDays)
+    $sitecronExecutionLog = "Scheduled Job to delete older SiteCron Execution Reports - Older than $dateOlder - Older than $noOfDays days! `n"
+    
+    #Gather SiteCron Execution report items which meet the criteria
+    $items = Get-ChildItem -Recurse -Path "master:\sitecore\system\Modules\SiteCron Reports\OOTB\SiteCron Execution Reports" | Where { $_.__Created -le $dateOlder -and $_.TemplateName -eq "SiteCron Execution Report"}
+    
+    #Store the information to save as part of this items Execution report
+    $itemsToBeDeleted = $items |Format-Table DisplayName, Id, __Created -AutoSize | Out-String
+    
+    #Disable Events
+    New-UsingBlock(New-Object Sitecore.Data.Events.EventDisabler) {
+        #Delete the Execution Reports without having to go to the recycling bin
+        $items | Remove-Item -Recurse -Permanently -Force
+    }
+    $sitecronExecutionLog += $itemsToBeDeleted
+    
+    $sitecronExecutionLog += (Get-date).ToString() + "Syncing item bucket"    
+    
+    #Sync Item Bucket to remove empty folders
+    $bucketItem = Get-Item -Path "master:\sitecore\system\Modules\SiteCron Reports\OOTB\SiteCron Execution Reports"
+    [Sitecore.Buckets.Managers.BucketManager]::Sync($bucketItem)
+    $sitecronExecutionLog += (Get-date).ToString() + "Done!"    
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181206T223031Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

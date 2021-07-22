@@ -1,0 +1,32 @@
+﻿---
+ID: "b9b437b2-789c-48f6-aae2-b49c4aa2a4bb"
+Parent: "e72ae09a-81a4-4aa5-9539-289e19dc436f"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Modules/Sitecron/SiteCron Sitecore Schedule Command Job
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/calendar_clock.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {A4B41675-9612-44F1-86DD-83A664A6E179}
+    {7F2C8881-6AE4-48CF-A499-7745CC4B2EB2}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{30877FD5-1C5C-46D4-930C-1FE23058EBA8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180406T182319Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180406T182319Z

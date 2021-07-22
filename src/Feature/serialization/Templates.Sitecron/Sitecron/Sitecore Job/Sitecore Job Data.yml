@@ -1,0 +1,19 @@
+﻿---
+ID: "695c8f0a-abe4-4ead-8d6c-a96255fb9c2a"
+Parent: "a4b41675-9612-44f1-86dd-83a664a6e179"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/Sitecron/Sitecore Job/Sitecore Job Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180409T184746Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180409T184746Z

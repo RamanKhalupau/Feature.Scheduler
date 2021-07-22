@@ -1,0 +1,19 @@
+﻿---
+ID: "2cbf412c-9019-49bc-8f2f-be4e19d44ec1"
+Parent: "49a27dc8-2a6a-48a2-a8ef-02a3dd0d3274"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/Sitecron/SiteCron Run As Sitecore Job/Run As Sitecore Job
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180406T182952Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180406T182952Z

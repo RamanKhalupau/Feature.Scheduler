@@ -1,0 +1,22 @@
+﻿---
+ID: "bfdf040b-05fd-4b4d-971c-5b1d66aa5085"
+Parent: "08477468-d438-43d4-9d6a-6d84a611971c"
+Template: "0dea17e8-b084-414d-b1cd-764602c58eae"
+Path: /sitecore/system/Modules/SiteCron Reports
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/office/32x32/folder_document.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0DEA17E8-B084-414D-B1CD-764602C58EAE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200319T192820Z

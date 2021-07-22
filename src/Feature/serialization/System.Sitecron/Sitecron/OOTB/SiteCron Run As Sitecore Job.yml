@@ -1,0 +1,124 @@
+﻿---
+ID: "f61fab62-a123-4242-8b23-bfb5677dfa95"
+Parent: "94bec554-6aba-4588-a4e0-3daf88b27542"
+Template: "49a27dc8-2a6a-48a2-a8ef-02a3dd0d3274"
+Path: /sitecore/system/Modules/Sitecron/OOTB/SiteCron Run As Sitecore Job
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/gears_stop.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: SiteCron Run As Sitecore Job _DISABLED_
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0571f1a5-e0bc-4256-8096-8f1738af1071"
+      Hint: NextRunUTC
+      Value: "4/10/2018 9:16:00 PM"
+    - ID: "08bc1a5a-056d-4e11-bd56-d1aa8aae0a27"
+      Hint: SitecoreJobSiteName
+      Value: scheduler
+    - ID: "0d5edde7-08a6-424f-b751-cc2c1d48ebba"
+      Hint: ExecutionTime
+      Value: 12.1622461
+    - ID: "18bd12e3-f1d3-4b3a-a13b-6969bd841452"
+      Hint: ExecuteExactlyAtDateTime
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170616T171251Z
+    - ID: "4ec306b1-4aa7-4bdd-a0b2-a3bb38e9fa0c"
+      Hint: Type
+      Value: Sitecron.Jobs.SitecoreJob.RunAsSitecoreJob, Sitecron
+    - ID: "586332a2-0237-4cdf-b755-4a1e35ec00de"
+      Hint: SitecoreJobMethod
+      Value: SomeWork
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6d2cc693-4bdc-4f2c-897a-f4c85e1abbc9"
+      Hint: SitecoreJobPriority
+      Value: 4
+    - ID: "7163ae4b-2503-4190-8a49-b0c7a60aab4a"
+      Hint: Disable
+      Type: Checkbox
+      Value: 1
+    - ID: "76deba0d-4bb6-4dd8-891a-62e71bc4bc1b"
+      Hint: SitecoreJobName
+      Value: SiteCron Test Sitecore Job
+    - ID: "85fa83c4-6c22-4ba1-a12d-a12208ce2ef4"
+      Hint: SitecoreJobCategory
+      Value: SiteCron
+    - ID: "8bdf639e-21de-48a7-9f93-ca85b0f695a3"
+      Hint: CronExpression
+      Value: "0 16 14 * * ? *"
+    - ID: "8d9bf9d3-9589-4749-a32e-5e04f7ca0f1f"
+      Hint: SitecoreJobType
+      Value: Sitecron.Demo.Jobs.DummyJob, Sitecron
+    - ID: "a363fa42-810f-48e8-87d8-abe5991d9b61"
+      Hint: LastRunUTC
+      Value: "4/9/2018 9:16:00 PM"
+    - ID: "a5f21b48-2da4-46e0-902d-bb1891d463dc"
+      Hint: Parameters
+      Value: 
+  - Version: 2
+    Fields:
+    - ID: "0571f1a5-e0bc-4256-8096-8f1738af1071"
+      Hint: NextRunUTC
+      Value: "4/10/2018 9:16:00 PM"
+    - ID: "08bc1a5a-056d-4e11-bd56-d1aa8aae0a27"
+      Hint: SitecoreJobSiteName
+      Value: scheduler
+    - ID: "0d5edde7-08a6-424f-b751-cc2c1d48ebba"
+      Hint: ExecutionTime
+      Value: 12.1622461
+    - ID: "18bd12e3-f1d3-4b3a-a13b-6969bd841452"
+      Hint: ExecuteExactlyAtDateTime
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170616T171251Z
+    - ID: "4ec306b1-4aa7-4bdd-a0b2-a3bb38e9fa0c"
+      Hint: Type
+      Value: Sitecron.Jobs.SitecoreJob.RunAsSitecoreJob, Sitecron
+    - ID: "586332a2-0237-4cdf-b755-4a1e35ec00de"
+      Hint: SitecoreJobMethod
+      Value: SomeWork
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "6d2cc693-4bdc-4f2c-897a-f4c85e1abbc9"
+      Hint: SitecoreJobPriority
+      Value: 4
+    - ID: "7163ae4b-2503-4190-8a49-b0c7a60aab4a"
+      Hint: Disable
+      Type: Checkbox
+      Value: 1
+    - ID: "76deba0d-4bb6-4dd8-891a-62e71bc4bc1b"
+      Hint: SitecoreJobName
+      Value: SiteCron Test Sitecore Job
+    - ID: "85fa83c4-6c22-4ba1-a12d-a12208ce2ef4"
+      Hint: SitecoreJobCategory
+      Value: SiteCron
+    - ID: "8bdf639e-21de-48a7-9f93-ca85b0f695a3"
+      Hint: CronExpression
+      Value: "0 16 14 * * ? *"
+    - ID: "8d9bf9d3-9589-4749-a32e-5e04f7ca0f1f"
+      Hint: SitecoreJobType
+      Value: Sitecron.Demo.Jobs.DummyJob, Sitecron
+    - ID: "a363fa42-810f-48e8-87d8-abe5991d9b61"
+      Hint: LastRunUTC
+      Value: "4/9/2018 9:16:00 PM"
+    - ID: "a5f21b48-2da4-46e0-902d-bb1891d463dc"
+      Hint: Parameters
+      Value: 

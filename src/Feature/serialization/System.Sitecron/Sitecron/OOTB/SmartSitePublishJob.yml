@@ -1,0 +1,24 @@
+﻿---
+ID: "7f94c8df-f7f9-4046-8588-2e6e306726e5"
+Parent: "94bec554-6aba-4588-a4e0-3daf88b27542"
+Template: "7f2c8881-6ae4-48cf-a499-7745cc4b2eb2"
+Path: /sitecore/system/Modules/Sitecron/OOTB/SmartSitePublishJob
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210715T214428Z
+    - ID: "4ec306b1-4aa7-4bdd-a0b2-a3bb38e9fa0c"
+      Hint: Type
+      Value: Feature.Scheduler.Jobs.SmartSitePublishJob, Feature.Scheduler
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Raman
+    - ID: "8bdf639e-21de-48a7-9f93-ca85b0f695a3"
+      Hint: CronExpression
+      Value: "0 0 12 ? * WED"

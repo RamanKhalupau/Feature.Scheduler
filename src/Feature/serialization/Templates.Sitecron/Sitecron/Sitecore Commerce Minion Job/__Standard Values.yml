@@ -1,0 +1,33 @@
+﻿---
+ID: "f6900f80-cc31-4936-8bd0-320e3d58e64d"
+Parent: "40f6016f-c38d-4024-8b48-7de2655e6007"
+Template: "40f6016f-c38d-4024-8b48-7de2655e6007"
+Path: /sitecore/templates/Modules/Sitecron/Sitecore Commerce Minion Job/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180920T210455Z
+    - ID: "4ec306b1-4aa7-4bdd-a0b2-a3bb38e9fa0c"
+      Hint: Type
+      Value: Sitecron.Jobs.SitecoreJob.SitecoreScheduleCommandJob, Sitecron
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180920T210455Z
+    - ID: "4ec306b1-4aa7-4bdd-a0b2-a3bb38e9fa0c"
+      Hint: Type
+      Value: Sitecron.Jobs.SitecoreJob.SitecoreScheduleCommandJob, Sitecron
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

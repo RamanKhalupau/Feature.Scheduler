@@ -1,0 +1,19 @@
+﻿---
+ID: "18a47a1f-944e-418a-8d36-4dd59bea262c"
+Parent: "bfdf040b-05fd-4b4d-971c-5b1d66aa5085"
+Template: "0dea17e8-b084-414d-b1cd-764602c58eae"
+Path: /sitecore/system/Modules/SiteCron Reports/OOTB
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{0DEA17E8-B084-414D-B1CD-764602C58EAE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200319T194128Z

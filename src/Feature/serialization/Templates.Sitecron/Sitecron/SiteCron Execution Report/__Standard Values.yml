@@ -1,0 +1,38 @@
+﻿---
+ID: "e2fa264a-22a8-4a30-8bf9-c1880426a68d"
+Parent: "f8e58f37-9bf0-4b71-b562-4b21973cf6e7"
+Template: "f8e58f37-9bf0-4b71-b562-4b21973cf6e7"
+Path: /sitecore/templates/Modules/Sitecron/SiteCron Execution Report/__Standard Values
+DB: master
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180328T142449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f2491530-1d95-4591-8918-ce21b779e43f"
+      Hint: SitecronJob
+      Value: 
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180328T142449Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "f2491530-1d95-4591-8918-ce21b779e43f"
+      Hint: SitecronJob
+      Value: 

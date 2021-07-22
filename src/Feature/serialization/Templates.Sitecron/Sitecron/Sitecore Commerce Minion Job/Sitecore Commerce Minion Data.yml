@@ -1,0 +1,19 @@
+﻿---
+ID: "aa0d7bf2-f195-4459-9c5f-d6f16ca1436a"
+Parent: "40f6016f-c38d-4024-8b48-7de2655e6007"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Modules/Sitecron/Sitecore Commerce Minion Job/Sitecore Commerce Minion Data
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180920T210327Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180920T210327Z
