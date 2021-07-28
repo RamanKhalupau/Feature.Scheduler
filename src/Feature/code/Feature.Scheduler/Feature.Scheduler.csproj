@@ -179,6 +179,7 @@
   <ItemGroup>
     <Content Include="App_Config\Include\Z.SiteCron\SiteCronJobs.config" />
     <Content Include="App_Config\Include\Z.SiteCron\SiteCron.config" />
+    <Content Include="App_Config\Include\Z.Unicorn\Unicorn.Sitecron.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml">
       <SubType>Designer</SubType>
